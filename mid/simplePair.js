@@ -19,4 +19,4 @@ function simplePair(list, number) {
 
 
 simplePair([1,2,3],3)
-simplePair([1,2,3],3)
+simplePair([1,2,3],6)
