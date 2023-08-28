@@ -1,5 +1,5 @@
 function sumTwoSmallestNums(list) {
-
+    let total_number = 0;
     const list_number = [];
     for (let i of list) {
             if (i > 0) {
@@ -13,14 +13,14 @@ function sumTwoSmallestNums(list) {
     list_num.push(num_lest_1)
     list_number.splice(num_lest_1)
     //console.log(list_number);
-    const num_lest_2 = Math.min(...list_number)
+    //const num_lest_2 = 
     //console.log(num_lest_2);
-    list_num.push(num_lest_2)
+    //list_num.push(num_lest_2)
     //console.log(list_num);
-    let total_number = 0;
-    for (j of list_num) {
-        total_number += j
-    }
+    
+    
+    total_number = j + Math.min(...list_number)
+    
     console.log(total_number);
 }
 

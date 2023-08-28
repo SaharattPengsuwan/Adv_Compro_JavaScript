@@ -1,10 +1,27 @@
 function removeDupe(data) {
-    const 
-    for(let index = 0; index < data.length; index++) {
-        let index_1 = 0;
-        while (index_1 < data.length){
-            if (data[index] == data[index_1])
+    const list = [];
+    let count = 0;
+    for (let i of data){
+        for (let j of data){
+            if (i == j) {
+                count++
+            }
+        }if (count == 2){
             
         }
-    }
+    }return list
 }
+
+
+//console.log(removeDupe([1,0,1,0]));
+//console.log(removeDupe(["pae","tep","pae"]));
+
+removeDupe([1,0,1,0])
+
+//const list = [1,0,2,3,5,5]
+//console.log(list.shift());
+//console.log(list);
+//console.log(list_keep);
+//const o = list.pop()
+//const p = list.slice()
+//console.log(list);

@@ -13,3 +13,4 @@ function highestDigit(number) {
 
 highestDigit(379)
 highestDigit(2)
+
